@@ -10,7 +10,7 @@ import com.gopaint.app.data.ContentRepository
 import com.gopaint.app.data.SupabaseClientProvider
 import com.gopaint.app.nav.GoPaintNavGraph
 import com.gopaint.app.ui.theme.GoPaintTheme
-import io.github.jan.supabase.handleDeeplinks
+import io.github.jan.supabase.auth.handleDeeplinks
 
 class MainActivity : ComponentActivity() {
 

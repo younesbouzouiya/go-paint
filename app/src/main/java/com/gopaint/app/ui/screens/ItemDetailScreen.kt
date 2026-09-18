@@ -164,7 +164,7 @@ private fun IconButtonBack(onBack: () -> Unit, modifier: Modifier = Modifier) {
     ) {
         androidx.compose.material3.IconButton(onClick = onBack) {
             androidx.compose.material3.Icon(
-                androidx.compose.material.icons.Icons.Default.ArrowBack,
+                androidx.compose.material.icons.Icons.AutoMirrored.Filled.ArrowBack,
                 contentDescription = "رجوع",
                 tint = androidx.compose.ui.graphics.Color.White
             )
