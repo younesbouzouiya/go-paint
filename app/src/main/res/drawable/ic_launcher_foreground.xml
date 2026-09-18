@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- paint blob -->
+    <path android:pathData="M54,30 C70,30 82,42 82,56 C82,68 74,76 62,76 C58,76 55,73 55,69 C55,65 58,63 58,60 C58,57 55,55 51,55 C40,55 32,64 32,75 C32,82 27,86 21,84 C16,82 14,76 15,70 C18,48 34,30 54,30 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="30"
+                android:endX="90"
+                android:endY="90"
+                android:type="linear">
+                <item android:offset="0" android:color="#2FB8FF" />
+                <item android:offset="0.5" android:color="#8B5CF6" />
+                <item android:offset="1" android:color="#FF3D9A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- small color dots inside the blob -->
+    <path android:pathData="M44,44 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:fillColor="#FFFFFF" android:fillAlpha="0.9"/>
+    <path android:pathData="M62,42 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:fillColor="#FFFFFF" android:fillAlpha="0.7"/>
+    <path android:pathData="M68,58 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" android:fillColor="#FFFFFF" android:fillAlpha="0.6"/>
+</vector>
