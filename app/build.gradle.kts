@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.gopaint.app"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.gopaint.app"
