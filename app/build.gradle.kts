@@ -48,14 +48,14 @@ android {
 
 dependencies {
     // Compose
-    implementation(platform("androidx.compose:compose-bom:2026.08.00"))
+    implementation(platform("androidx.compose:compose-bom:2025.10.01"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-core")
-    implementation("androidx.activity:activity-compose:1.13.0")
-    implementation("androidx.navigation:navigation-compose:2.9.8")
+    implementation("androidx.activity:activity-compose:1.9.3")
+    implementation("androidx.navigation:navigation-compose:2.9.5")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.1")
     implementation("androidx.core:core-ktx:1.13.1")
